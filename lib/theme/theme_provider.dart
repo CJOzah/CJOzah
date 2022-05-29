@@ -13,11 +13,11 @@ class ThemeProvider extends ChangeNotifier {
 
 class MyThemes {
   static final darkTheme = ThemeData(
-    scaffoldBackgroundColor: Color(0xff21252A),
-    backgroundColor: Color(0xff21252A),
+    scaffoldBackgroundColor: Color(0xff1F2858),
+    backgroundColor: Color(0xff1F2858),
     primaryColor: Color(0xFF000C66),
     primaryColorDark: Color(0xFF050A30),
-    primaryColorLight: Color(0xFFF16252),
+    primaryColorLight: Color(0xFFD21D5B),
     secondaryHeaderColor: Color(0xFFF0A904),
     accentColor: Color(0xFF48BCE1),
     dividerColor: Colors.grey,
@@ -49,7 +49,7 @@ class MyThemes {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
         backgroundColor: MaterialStateProperty.all<Color>(
-          Color(0xFFF16252),
+          Color(0xFFD21D5B),
         ),
         padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
           EdgeInsets.only(left: 45.0, right: 45.0, top: 20.0, bottom: 20.0),
@@ -59,7 +59,7 @@ class MyThemes {
         ),
         elevation: MaterialStateProperty.all<double>(15.0),
         shadowColor: MaterialStateProperty.all<Color>(
-          Color(0xFFF16252),
+          Color(0xFFD21D5B),
         ),
       ),
     ),
@@ -78,11 +78,9 @@ class MyThemes {
     accentColor: Color(0xFF48BCE1),
     dividerColor: Color(0xFFFFFFFF),
     textTheme: TextTheme().copyWith(
-      bodyText1: TextStyle(color: Colors.black, 
-        fontSize: 16.0, height: 1.5),
+      bodyText1: TextStyle(color: Colors.black, fontSize: 16.0, height: 1.5),
       bodyText2: TextStyle(
         color: Colors.black,
-        
       ),
       headline4: TextStyle(
         color: Colors.black,
