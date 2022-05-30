@@ -1,4 +1,3 @@
-
 import 'package:canaan_portfolio/github_api.dart';
 import 'package:canaan_portfolio/screens/home.dart';
 import 'package:canaan_portfolio/theme/theme_provider.dart';
@@ -29,10 +28,9 @@ class Canaan extends StatelessWidget {
         builder: (context, _) {
           final themeProvider = Provider.of<ThemeProvider>(context);
 
-
           return MaterialApp(
               themeMode: themeProvider.themeMode,
-              theme: MyThemes.lightTheme,
+              theme: MyThemes.darkTheme,
               darkTheme: MyThemes.darkTheme,
               initialRoute: Home.id,
               debugShowCheckedModeBanner: false,

@@ -13,11 +13,11 @@ class ThemeProvider extends ChangeNotifier {
 
 class MyThemes {
   static final darkTheme = ThemeData(
-    scaffoldBackgroundColor: Color(0xff1F2858),
-    backgroundColor: Color(0xff1F2858),
+    scaffoldBackgroundColor: Color(0xff17122A),
+    backgroundColor: Color(0xff17122A),
     primaryColor: Color(0xFF000C66),
     primaryColorDark: Color(0xFF050A30),
-    primaryColorLight: Color(0xFFD21D5B),
+    primaryColorLight: Color(0xFF1D4788),
     secondaryHeaderColor: Color(0xFFF0A904),
     accentColor: Color(0xFF48BCE1),
     dividerColor: Colors.grey,
@@ -49,7 +49,7 @@ class MyThemes {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
         backgroundColor: MaterialStateProperty.all<Color>(
-          Color(0xFFD21D5B),
+          Color(0xFF1D4788),
         ),
         padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
           EdgeInsets.only(left: 45.0, right: 45.0, top: 20.0, bottom: 20.0),
@@ -59,7 +59,7 @@ class MyThemes {
         ),
         elevation: MaterialStateProperty.all<double>(15.0),
         shadowColor: MaterialStateProperty.all<Color>(
-          Color(0xFFD21D5B),
+          Color(0xFF1D4788),
         ),
       ),
     ),
